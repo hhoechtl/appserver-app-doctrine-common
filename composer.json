@@ -1,0 +1,20 @@
+{
+    "name": "onedrop-customer/common",
+    "description": "Shared package with Doctrine datastructure",
+    "require": {
+        "php" : ">=5.4.0",
+        "doctrine/common": "~2.5",
+        "knplabs/doctrine-behaviors": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "Andreas Winter",
+            "email": "awinter@1drop.de"
+        }
+    ],
+    "autoload" : {
+      "psr-0" : {
+        "Onedrop\\Customer\\App\\Common" : "src/"
+      }
+    }
+}
